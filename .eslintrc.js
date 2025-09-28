@@ -28,5 +28,6 @@ module.exports = {
     'import/prefer-default-export': 0, // Todos os exports precisam conter default, nesse projeto, alguns não terão
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn', // Regras do próprio REACT HOOKS
+    'import/no-extraneous-dependencies': 0,
   },
 };
